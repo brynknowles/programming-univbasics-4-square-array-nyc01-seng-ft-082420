@@ -5,5 +5,6 @@
 # use only while, arrays and other previously discussed methods for this solution
 
 def square_array(array, number)
-  while
+  counter = 0
+  while array 
 end
