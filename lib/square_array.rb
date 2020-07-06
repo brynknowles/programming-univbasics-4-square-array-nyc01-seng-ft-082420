@@ -32,11 +32,12 @@
 
 def square_array(numbers)
   counter = 0
+  new_numbers = []
   while counter < numbers.length do
-    numbers[counter] ** 2 
+    new_numbers.push(numbers[index] ** 2) 
     counter += 1
   end
-  square_array(numbers)
+  new_numbers
 end
 
 # new_array = []
