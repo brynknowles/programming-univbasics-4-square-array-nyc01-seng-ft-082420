@@ -31,9 +31,10 @@
 # Return the array you created in step 1.
 
 def square_array(numbers)
-  count = 0
-  while count < numbers.length do
+  counter = 0
+  while counter < numbers.length do
     numbers.index ** 2 
+    counter += 1
   end
   square_array(numbers)
 end
