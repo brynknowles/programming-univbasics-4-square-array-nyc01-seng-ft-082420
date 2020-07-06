@@ -13,12 +13,20 @@
 #   end
 # end
 
-def square_array(array)
-  counter = 0
-  new_array = []
-  while counter < array.length do
-    new_array.push(array[counter].to_s) # OR new_array << array[counter].to_s
-    count += 1
+# def square_array(array)
+#   counter = 0
+#   new_array = []
+#   while counter < array.length do
+#     new_array.push(array[counter].to_s) # OR new_array << array[counter].to_s
+#     count += 1
+#   end
+#   new_array
+# end
+
+def square_array(numbers)
+  count = 0
+  while count < numbers.length do
+    numbers.index ** 2 
   end
-  new_array
+  square_array(numbers)
 end
